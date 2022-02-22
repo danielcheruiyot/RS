@@ -428,6 +428,11 @@ body {
 	font-weight: 500;
 	padding: 2.6rem;
 }
+@media (max-width: 700px) {
+	.about h2 {
+}
+
+}
 
 #footer p {
 	padding-bottom: 25px	;
