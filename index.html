@@ -1,0 +1,342 @@
+<!doctype html>
+<html> 
+	<head> 
+		<meta charset='utf-8'/>
+		<meta name='viewport' content='width=device-width, intial-scale=1.0'>
+		<link
+      		rel="stylesheet"
+		      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+		      crossorigin="anonymous"
+		      referrerpolicy="no-referrer"
+    />
+		<link rel='stylesheet' type='text/css' href='main.css'/>
+		<title>RS Bar & Restaurant</title>
+
+
+
+		//chat api 
+		<!-- Start of Async Callbell Code -->
+		<script>
+		  window.callbellSettings = {
+		    token: "Qtgzs1xT5eSrhMbjN3vgWk2h"
+		  };
+		</script>
+		<script>
+		  (function(){var w=window;var ic=w.callbell;if(typeof ic==="function"){ic('reattach_activator');ic('update',callbellSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Callbell=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://dash.callbell.eu/include/'+window.callbellSettings.token+'.js';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()
+		</script>
+		<!-- End of Async Callbell Code -->
+
+	</head>
+	<body> 
+		<button class='btn btn-primary' id='scrollBtn' onclick="topFunction()">Back To Top</button> <!--
+		<a href='https://api.whatsapp.com/send?phone=254704488340' id='whatsappLink'><img src='whatsapp.png' alt='error'/></a> -->
+		<nav class='navbar'> 
+			<div class='navbar-container container'> 
+				<input type='checkbox' name='' id=''>
+				<div class='hamburger-lines'> 
+					<span class='line line1'></span>
+					<span class='line line2'></span>
+					<span class='line line3'></span>
+				</div>
+				<ul class='menu-items'> 
+					<li><a href='#home'>Home</a></li>
+					<li><a href='#about'>About</a></li>
+					<li><a href='#food'>Category</a></li>
+					<li><a href='#food-menu'>Menu</a></li>
+					<li><a href='#testimonials'>Testimonial</a></li>
+					<li><a href='#contact'>Contact</a></li>
+				</ul>
+				<h1 class='logo'>RS</h1>
+			</div>
+		</nav>
+
+		<!--THE SHOWCASE SECTION-->
+		<section id='showcase' class='showcase-area'> 
+			<div class='showcase-container'> 
+				<h1 class='main-title' id='home'>Eat Right Food</h1>
+				<p>Eat Healthy, It is good for your health</p>
+				<a href='#food-menu' class='btn btn-primary'>Menu</a>
+			</div>
+		</section>
+		<!--about us section-->
+
+		<section id='about'> 
+			<div class='about-wrapper container'> 
+				<div class='about-text'> 
+					<p class='small'>About Us</p>
+					<h2>We've beem making healthy food last for 10 years</h2>
+          			<p>
+			            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse ab
+			            eos omnis, nobis dignissimos perferendis et officia architecto,
+			            fugiat possimus eaque qui ullam excepturi suscipit aliquid optio,
+			            maiores praesentium soluta alias asperiores saepe commodi
+			            consequatur? Perferendis est placeat facere aspernatur!
+			        </p>
+				</div>
+				<div class='about-img'> 
+					<img src='src/about-photo.jpg' alt='about image'/>
+				</div>
+			</div>
+		</section>
+
+		<!--food section-->
+		<section id='food'> 
+			<h2>Types of food</h2>
+			<div class='food-container container'> 
+				<div class='food-type fruite'> 
+					<div class='img-container'> 
+						<img src='src/food1.jpg' alt='fruit img'/>
+						<div class='img-content'> 
+							<h3>Fruits</h3>
+							<a href="https://en.wikipedia.org/wiki/Fruit" class="btn btn-primary" target=" "> 	
+								Learn More
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class='food-type vegetable'> 
+					<div class='img-container'> <!--set different image src:: food2.jpg-->
+						<img src='src/food2.jpg' alt='grin img'/>
+						<div class='img-content'> 
+							<h3>Vegetable</h3>
+							<a href="https://en.wikipedia.org/wiki/Vegetable" class="btn btn-primary" target=" "> 	
+								Learn More
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class='food-type grin'> 
+					<div class='img-container'> <!--set different image src:: food3.jpg-->
+						<img src='src/food3.jpg' alt='grin img'/>
+						<div class='img-content'> 
+							<h3>Grains</h3>
+							<a href="https://en.wikipedia.org/wiki/Grain" class="btn btn-primary" target=" "> 	
+								Learn More
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--foodmenu section-->
+		<section id='food-menu'> 
+			<h2 class='food-menu-heading'>Food Menu</h2>
+			<div class='food-menu-container container'> 
+				<div class='food-menu-item'> 
+					<div class='food-img'> <!--add correct image filepath: food-menu1.jpg-->
+						<img src='src/food-menu1.jpg' alt='Error food menu img'/>
+					</div>
+					<div class='food-description'> 
+						<h2 class='food-title'>Cake with Guacamole</h2>
+						<p> 
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+						</p>
+						<p class='food-price'>Price: Kshs.1200/=</p>
+					</div>
+				</div>
+
+				<div class='food-menu-item'> 
+					<div class='food-img'> <!--add correct image filepath: food-menu2.jpg-->
+						<img src='src/food-menu2.jpg' alt='Error food menu img'/>
+					</div>
+					<div class='food-description'> 
+						<h2 class='food-title'>Cereal Banana mix</h2>
+						<p> 
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+						</p>
+						<p class='food-price'>Price: Kshs.700/=</p>
+					</div>
+				</div>
+
+				<div class='food-menu-item'> 
+					<div class='food-img'> <!--add correct image filepath: food-menu3.jpg-->
+						<img src='src/food-menu3.jpg' alt='Error food menu img'/>
+					</div>
+					<div class='food-description'> 
+						<h2 class='food-title'>Vegetable salad</h2>
+						<p> 
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+						</p>
+						<p class='food-price'>Price: Kshs.300/=</p>
+					</div>
+				</div>
+
+				<div class='food-menu-item'> 
+					<div class='food-img'> <!--add correct image filepath: food-menu4.jpg-->
+						<img src='src/food-menu4.jpg' alt='Error food menu img'/>
+					</div>
+					<div class='food-description'> 
+						<h2 class='food-title'>Rice Corns and Stew</h2>
+						<p> 
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+						</p>
+						<p class='food-price'>Price: Kshs.1000/=</p>
+					</div>
+				</div>
+
+				<div class='food-menu-item'> 
+					<div class='food-img'> <!--add correct image filepath: food-menu5.jpg-->
+						<img src='src/food-menu5.jpg' alt='Error food menu img'/>
+					</div>
+					<div class='food-description'> 
+						<h2 class='food-title'>Assorted Fruits with Biscuits and strawberry cream</h2>
+						<p> 
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+						</p>
+						<p class='food-price'>Price: Kshs.900/=</p>
+					</div>
+				</div>
+
+				<div class='food-menu-item'> 
+					<div class='food-img'> <!--add correct image filepath: food-menu6.jpg-->
+						<img src='src/food-menu6.jpg' alt='Error food menu img'/>
+					</div>
+					<div class='food-description'> 
+						<h2 class='food-title'>Diced Fruits with cream syrup</h2>
+						<p> 
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+						</p>
+						<p class='food-price'>Price: Kshs.850/=</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--Testimonials section-->
+		<section id='testimonials'> 
+			<h2 class='testimonial-title'>What Our Customers Say</h2>
+			<div class='testimonial-container container'> 
+				<div class='testimonial-box'> 
+					<div class='customer-detail'> 
+						<div class='customer-photo'> 
+							<img src='src/male-photo1.jpg' alt='Customers photo'/>
+							<p class='customer-name'>Owisi Visuals</p>
+						</div>
+					</div>
+					<div class='star-rating'> 
+						<span class='fa fa-star checked'></span>
+						<span class='fa fa-star checked'></span>
+						<span class='fa fa-star checked'></span>
+						<span class='fa fa-star checked'></span>
+						<span class='fa fa-star checked'></span>
+					</div>
+					<p class='testimonial-text'> 
+						 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
+            			voluptas cupiditate aspernatur odit doloribus non.
+					</p>
+				</div>
+				<div class='testimonial-box'> 
+					<div class='customer-detail'> 
+						<div class='customer-photo'> 
+							<img src='src/female-photo1.jpg' alt='Customers photo'/>
+							<p class='customer-name'>Osundwa Kizito</p>
+						</div>
+					</div>
+					<div class='star-rating'> 
+						<span class='fa fa-star checked'></span>
+						<span class='fa fa-star checked'></span>
+						<span class='fa fa-star checked'></span>
+						<span class='fa fa-star checked'></span>
+						<span class='fa fa-star checked'></span>
+					</div>
+					<p class='testimonial-text'> 
+						 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
+            			voluptas cupiditate aspernatur odit doloribus non.
+					</p>
+				</div>
+				<div class='testimonial-box'> 
+					<div class='customer-detail'> 
+						<div class='customer-photo'> 
+							<img src='src/male-photo3.jpg' alt='Customers photo'/>
+							<p class='customer-name'>Dante Cheruiyot</p>
+						</div>
+					</div>
+					<div class='star-rating'> 
+						<span class='fa fa-star checked'></span>
+						<span class='fa fa-star checked'></span>
+						<span class='fa fa-star checked'></span>
+						<span class='fa fa-star checked'></span>
+						<span class='fa fa-star checked'></span>
+					</div>
+					<p class='testimonial-text'> 
+						 Compared to traditional channels like email or phone number, giving our customers the opportunity to contact us.
+				</div>
+			</div>
+		</section>
+
+
+		<!--Contact section-->
+		<section id='contact'> 
+			<div class="contact-container container"> 
+				<div class="contact-img"> <!--place the correct contact image:restraunt2.jpg -->
+					<img src="src/food2.jpg" alt="error contact image" />
+				</div>
+				<div class='form-container'> 
+					<h2>Contact Us</h2>
+					<input type="text" placeholder="Enter your name" />
+					<input type="email" placeholder="Enter your email" />
+					<textarea cols="30" rows="6" placeholder="Type your Message Here"></textarea>
+					<a href='#' class="btn btn-primary">Submit</a>
+				</div>
+			</div>
+		</section>
+
+		<!--Footer section:: add social icons here-->
+		<div id='footer'> 
+			<h2>RS Bar & Restaurant &copy; All Rights reserved</h2>
+			<p>Made with &hearts; by <a href='#'>Dante</a></p>
+		</div>
+
+
+		<script type="text/javascript"> 
+			//get the button first
+			mybtn = document.getElementById('scrollBtn');
+			//innitiate scrool function when user scrolls down
+			window.onscroll = function() {scrollFunction()};
+			function scrollFunction() {
+				if (document.documentElement.scrollTop > 20) {
+					mybtn.style.display = 'block';
+				}else {
+					mybtn.style.display = 'none';
+				}
+			}
+			function topFunction() {
+				document.documentElement.scrollTop = 0;
+			}
+
+		</script>
+
+
+
+		<script type="text/javascript"> 
+			$(document).ready(function () {
+				//Add smooth scroll to all links
+				$('a').on('click', function(event) {
+					//make sure this.hash has a value before overriding the dwefault behaviour
+					if (this.hash !== ''){
+						//preent the default anchor link beaviour
+						event.preventDefault();
+
+						//store the hash
+						var hash = this.hash;
+
+						//using jquery animate method to add smooth page scrolling
+						//using the ptional number 800 specifies the number of miliseconds it takes to scroll 
+						$('html, body').animate( 
+							{},800,function(){
+								//Add hasj to url (#) when you start scrolling(default click behaviour)
+								window.location.hash = hash;
+							}
+							);
+						 
+
+					}//end if
+
+				});
+			});
+
+		</script>
+	</body>
+</html>
